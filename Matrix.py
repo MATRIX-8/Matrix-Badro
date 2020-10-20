@@ -4,7 +4,9 @@ import time
 from time import sleep
 def bad():
     user=input("\033[0;35m [+] Type the name you want to extract from emails ==>> :")
+    print("                                                  ")
     print("\033[1;91m }==>>{{{ Ctrl + C  'Exit' }}}<<=={ ")
+    print("                                             ")
     print(user + "10@yahoo.com")
     sleep(1)
     print(user + "15@yahoo.com")
@@ -175,9 +177,12 @@ print("                                                                   ")
 print("\033[1;91m                                      By Badrddin & Muntathar          ")
 print("\033[1;32m                               ===================>>     ")
 
+print("                                                                   ")
 print("\033[0;35m [01] Email")
+print("                                                 ")
 number= input("\033[0;35m [+]Tybe Number :")
 if number == ("1"):
+    print("                                                               ")
     print("\033[1;91m         _                      _______                      _")
     print("\033[1;91m   _dMMMb._              .adOOOOOOOOOba.              _,dMMMb_")
     print("\033[1;91m  dP'  ~YMMb            dOOOOOOOOOOOOOOOb            aMMP~  `Yb")
